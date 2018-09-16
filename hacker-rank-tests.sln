@@ -19,9 +19,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoingToTheOffice", "GoingToTheOffice\GoingToTheOffice.csproj", "{AC1A2F0A-1673-4BC4-BD60-9C2D55016336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoingToTheOffice", "GoingToTheOffice\GoingToTheOffice.csproj", "{AC1A2F0A-1673-4BC4-BD60-9C2D55016336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoingToTheOffice.Console", "GoingToTheOffice.Console\GoingToTheOffice.Console.csproj", "{E2E31D02-362D-48CB-8CA6-9F215A3ED605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoingToTheOffice.Console", "GoingToTheOffice.Console\GoingToTheOffice.Console.csproj", "{E2E31D02-362D-48CB-8CA6-9F215A3ED605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadsAndLibraries", "Algorithms\GraphTheory\RoadsAndLibraries\RoadsAndLibraries.csproj", "{5E9447F7-0B26-4742-AA85-CE9DEA60DF7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphTheory", "GraphTheory", "{BA5E3A40-0AB0-4F5E-89CD-522357631FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyToTheMoon", "Algorithms\GraphTheory\JourneyToTheMoon\JourneyToTheMoon.csproj", "{1058EA7B-1EE0-4851-86D2-28A4D8C34C0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +55,14 @@ Global
 		{E2E31D02-362D-48CB-8CA6-9F215A3ED605}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2E31D02-362D-48CB-8CA6-9F215A3ED605}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2E31D02-362D-48CB-8CA6-9F215A3ED605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9447F7-0B26-4742-AA85-CE9DEA60DF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9447F7-0B26-4742-AA85-CE9DEA60DF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9447F7-0B26-4742-AA85-CE9DEA60DF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9447F7-0B26-4742-AA85-CE9DEA60DF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1058EA7B-1EE0-4851-86D2-28A4D8C34C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1058EA7B-1EE0-4851-86D2-28A4D8C34C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1058EA7B-1EE0-4851-86D2-28A4D8C34C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1058EA7B-1EE0-4851-86D2-28A4D8C34C0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +74,9 @@ Global
 		{A693E99D-C109-41DC-B0D4-AFF652EE6CD6} = {7153413A-4E80-4FE1-BD67-595A077B4B98}
 		{AC1A2F0A-1673-4BC4-BD60-9C2D55016336} = {7153413A-4E80-4FE1-BD67-595A077B4B98}
 		{E2E31D02-362D-48CB-8CA6-9F215A3ED605} = {7153413A-4E80-4FE1-BD67-595A077B4B98}
+		{5E9447F7-0B26-4742-AA85-CE9DEA60DF7B} = {BA5E3A40-0AB0-4F5E-89CD-522357631FD5}
+		{BA5E3A40-0AB0-4F5E-89CD-522357631FD5} = {C2F5AD15-92D6-44A5-9304-1C27050CBE1C}
+		{1058EA7B-1EE0-4851-86D2-28A4D8C34C0C} = {BA5E3A40-0AB0-4F5E-89CD-522357631FD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2B9DB03-0DA0-48EF-81CD-5E2671CAA463}

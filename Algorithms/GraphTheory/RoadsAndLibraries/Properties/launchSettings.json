@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RoadsAndLibraries": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "OUTPUT_PATH": "output.txt"
+      }
+    }
+  }
+}
